@@ -2,6 +2,7 @@
   "name": "waait",
   "version": "1.0.1",
   "description": "A little function to wait",
+  "repository": "wesbos/waait",
   "main": "index.js",
   "author": "Wes Bos",
   "license": "ISC"

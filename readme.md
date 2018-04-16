@@ -1,3 +1,5 @@
+[![build status](https://api.travis-ci.org/wesbos/waait.svg?branch=master)](https://travis-ci.org/wesbos/waait/)
+
 # Waait
 
 Hold on a sec, or 7.

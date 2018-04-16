@@ -1,6 +1,6 @@
 {
   "name": "waait",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little function to wait",
   "main": "index.js",
   "author": "Wes Bos",

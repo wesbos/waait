@@ -2,20 +2,20 @@
 
 Hold on a sec, or 7.
 
-`wait()` Returns a promise that resolves after how many milliseconds you pass it.
+`waait()` Returns a promise that resolves after how many milliseconds you pass it.
 
 Great for waiting any amount of time. If you do not pass it any value, it will immediately resolve. This is handy when you need to ensure the following code is put at the end of the JS event callstack.
 
 ## Usage
 
 ```js
-import wait from 'waait';
+import waait from 'waait';
 
 async function doStuff() {
   doSomething();
-  await wait();
+  await waait();
   doSomethingElse();
-  await wait(200);
+  await waait(200);
   console.log('200ms later');
 }
 

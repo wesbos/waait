@@ -1,2 +1,4 @@
 .DS_Store
 haters/
+node_modules
+package-lock.json

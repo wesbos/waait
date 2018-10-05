@@ -5,7 +5,7 @@
   "repository": "wesbos/waait",
   "main": "index.js",
   "author": "Wes Bos",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "tape": "^4.9.0"
   },

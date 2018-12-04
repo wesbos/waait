@@ -11,5 +11,6 @@
   },
   "scripts": {
     "test": "node test.js"
-  }
+  },
+  "typings": "./index.d.ts"
 }

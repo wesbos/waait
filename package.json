@@ -3,14 +3,33 @@
   "version": "1.0.3",
   "description": "A little function to wait",
   "repository": "wesbos/waait",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.js",
   "author": "Wes Bos",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
-    "tape": "^4.9.0"
+    "@types/jest": "^23.3.13",
+    "@types/node": "^10.12.18",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.4"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "jest",
+    "prepare": "rm -rf lib && npm run build",
+    "build": "tsc"
   },
-  "typings": "./index.d.ts"
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.test\\.ts$"
+  }
 }
